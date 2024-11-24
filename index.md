@@ -2,7 +2,7 @@
 
 Postdoctoral Research Associate at Oak Ridge National Laboratory  
 Analytics and AI Methods at Scale Group  
-emily.j.herron@gmail.com | [CV](#) | [Google Scholar](#) | [LinkedIn](#)
+emily.j.herron@gmail.com | [CV](#) | [Google Scholar](#) | [LinkedIn](#) | [Github](#)
 
 ## About
 
@@ -18,7 +18,7 @@ I'm a Postdoctoral Research Associate at Oak Ridge National Laboratory in the An
 
 **ChatHPC: Empowering HPC Users with Large Language Models**  
 J. Yin et al.  
-*Journal of Supercomputing, 2025*  
+*Journal of Supercomputing, vol. 81, 2025*  
 DOI: [https://doi.org/10.1007/s11227-024-06637-1](https://doi.org/10.1007/s11227-024-06637-1)
 
 **Exploring Scientific Hypothesis Generation with Mamba**  
@@ -32,14 +32,53 @@ E. Herron, J. Yin, and F. Wang
 
 **ICDARTS: Improving the Stability and Performance of Cyclic DARTS**  
 E. Herron, D. Rose, and S. Young  
-*arXiv, 2023*  
+*arXiv, September 2023*  
 [https://arxiv.org/abs/2309.00664](https://arxiv.org/abs/2309.00664)
+
+**ICDARTS: Improving the Stability of Cyclic DARTS**  
+E. J. Herron, S. R. Young, and D. Rose  
+*2022 21st IEEE International Conference on Machine Learning and Applications (ICMLA), 2022*
+
+**The Sensitivity of Word Embeddings-Based Author Detection Models to Semantic-Preserving Adversarial Perturbations**  
+J. Duncan et al.  
+*arXiv, 2021*  
+DOI: [10.48550/ARXIV.2102.11917](https://doi.org/10.48550/ARXIV.2102.11917)  
+[https://arxiv.org/abs/2102.11917](https://arxiv.org/abs/2102.11917)
 
 **Ensembles of Networks Produced from Neural Architecture Search**  
 E. J. Herron, S. R. Young, and T. E. Potok  
 *International Conference on High Performance Computing, 2020*  
 Pages 223-234
 
+**Applying Image Feature Extraction to Cluttered Scientific Repositories**  
+E. Herron, T. J. Skluzacek, I. Foster, and K. Chard  
+*2017*
+
+## Selected Presentations
+
+**SciTrust: Evaluating the Trustworthiness of Large Language Models for Science**  
+*2024 Monterey Data Conference, Monterey, California*  
+Poster Presentation
+
+**Generalized Differentiable Neural Architecture Search with Performance and Stability Improvements for Scientific Applications**  
+*SOS26 2024, Cocoa Beach, FL*  
+Poster Presentation
+
+**ICDARTS: Improving the Stability of Cyclic DARTS**  
+*2022 21st IEEE International Conference on Machine Learning and Applications*  
+Nassau, The Bahamas
+
+**Ensembles of Neural Networks Produced from Neural Architecture Search**  
+*Women in High Performance Computing Workshop, SuperComputing 2020*  
+Virtual Presentation
+
+**Ensembles of Neural Networks Produced from Neural Architecture Search**  
+*The International Conference on High Performance Computing 2020*  
+Virtual Presentation
+
+**Applying Image Feature Extraction to Cluttered Scientific Repositories**  
+*Student Research Competition Poster Session, SuperComputing 2017*  
+Denver, CO
 ## Education
 
 **Ph.D. in Data Science & Engineering**  
