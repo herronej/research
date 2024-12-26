@@ -6,7 +6,7 @@ emily.j.herron@gmail.com | [CV](https://herronej.github.io/research/CV_2024.pdf)
 
 ## About
 
-Emily Herron is a Postdoctoral Research Associate at Oak Ridge National Laboratory in the Analytics and AI Methods at Scale Group. Her research focuses on machine learning, particularly in neural architecture search, large language models, and AI trustworthiness. She completed her Ph.D. in Data Science & Engineering from the University of Tennessee, where she worked on generalized differentiable neural architecture search with scaling and stability improvements.
+Emily Herron is a postdoctoral research associate in the Analytics & AI Methods at Scale Group in the National Center for Computational Science at Oak Ridge National Laboratory. Her current research focuses on machine learning, particularly in neural architecture search, large language models, and AI trustworthiness. She completed her Ph.D. in Data Science & Engineering from the University of Tennessee, where she worked on generalized differentiable neural architecture search with scaling and stability improvements.
 
 ## Current Work
 
