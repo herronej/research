@@ -1,3 +1,17 @@
-theme: jekyll-theme-minimal
 title: Emily J. Herron
-description: Postdoctoral Research Associate at Oak Ridge National Laboratory
+description: Postdoctoral Research Associate at Oak Ridge National Laboratory — Agentic AI, LLM Safety, and High Performance Computing for Science.
+author: Emily J. Herron
+url: "https://herronej.github.io"
+baseurl: "/research"
+
+# Use a custom layout instead of a default GitHub Pages theme
+# (intentionally no `theme:` or `remote_theme:` line)
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

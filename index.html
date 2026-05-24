@@ -1,0 +1,576 @@
+---
+layout: default
+title: "Emily J. Herron — Research"
+description: "Postdoctoral Research Associate at Oak Ridge National Laboratory. Agentic AI safety, large language models for science, neural architecture search, and high-performance computing."
+---
+
+<header class="hero">
+  <div class="hero-meta"><span>ORNL · AAIMS Group · 2026</span></div>
+  <h1 class="hero-name">Emily J. <em>Herron</em></h1>
+  <p class="hero-title">Building trustworthy, agentic AI systems for scientific discovery&nbsp;— at exascale, in real laboratories, with the safety scaffolding the science actually needs.</p>
+  <p class="hero-affiliation">
+    Postdoctoral Research Associate &nbsp;·&nbsp;
+    <a href="https://www.ornl.gov/group/aaims" rel="noopener">Analytics &amp; AI Methods at Scale</a> &nbsp;·&nbsp;
+    <a href="https://www.ornl.gov" rel="noopener">Oak Ridge National Laboratory</a>
+  </p>
+
+  <nav class="contact-strip" aria-label="Contact">
+    <a href="mailto:emily.j.herron@gmail.com">emily.j.herron@gmail.com</a>
+    <span class="sep">/</span>
+    <a href="{{ '/CV_FY26.pdf' | relative_url }}">Curriculum Vitae ↗</a>
+    <span class="sep">/</span>
+    <a href="https://scholar.google.com/citations?user=eTzUe54AAAAJ&amp;hl=en" rel="noopener">Google Scholar</a>
+    <span class="sep">/</span>
+    <a href="https://github.com/herronej" rel="noopener">GitHub</a>
+    <span class="sep">/</span>
+    <a href="https://linkedin.com/in/emily-j-herron" rel="noopener">LinkedIn</a>
+  </nav>
+</header>
+
+<div class="main-grid">
+
+  <aside class="sidenav" aria-label="Section navigation">
+    <div class="sidenav-label">Contents</div>
+    <ul>
+      <li><a href="#about"><span class="num">01</span> About</a></li>
+      <li><a href="#research"><span class="num">02</span> Research</a></li>
+      <li><a href="#projects"><span class="num">03</span> Projects</a></li>
+      <li><a href="#publications"><span class="num">04</span> Publications</a></li>
+      <li><a href="#experience"><span class="num">05</span> Experience</a></li>
+      <li><a href="#education"><span class="num">06</span> Education</a></li>
+      <li><a href="#talks"><span class="num">07</span> Talks</a></li>
+      <li><a href="#skills"><span class="num">08</span> Skills</a></li>
+      <li><a href="#service"><span class="num">09</span> Service &amp; Awards</a></li>
+    </ul>
+  </aside>
+
+  <main id="main">
+
+    <!-- ABOUT ============================================== -->
+    <section id="about" class="reveal">
+      <div class="section-header">
+        <span class="section-num">01 /</span>
+        <h2 class="section-title">About</h2>
+      </div>
+      <p class="about-lead"><span class="drop">E</span>mily is a Postdoctoral Research Associate in the Analytics &amp; AI Methods at Scale (AAIMS) group at Oak Ridge National Laboratory, working at the intersection of agentic AI, LLM safety, and exascale high-performance computing for science.</p>
+      <div class="about-body">
+        <p>Her current research designs and hardens agentic AI systems for DOE national-laboratory scientific workflows — from architecting safety-mediation frameworks like <strong>VISTAGuard</strong>, to building multi-agent LLM pipelines for real-time experimental analysis at the Center for Nanophase Materials Sciences, to scaling evolutionary architecture search for hybrid Transformer–Mamba–MoE language models across 16,384 GPUs on the <em>Frontier</em> exascale supercomputer.</p>
+        <p>She holds a Ph.D. in Data Science &amp; Engineering from the University of Tennessee, where her thesis advanced differentiable neural architecture search. She serves as Secretary on the 2026 Executive Board of the Oak Ridge Postdoctoral Association.</p>
+      </div>
+    </section>
+
+    <!-- RESEARCH FOCUS ===================================== -->
+    <section id="research" class="reveal">
+      <div class="section-header">
+        <span class="section-num">02 /</span>
+        <h2 class="section-title">Research Focus</h2>
+      </div>
+      <div class="focus-grid">
+        <div class="focus-card" data-num="i.">
+          <h3>Agentic AI Safety for Science</h3>
+          <p>Unified security and safety-alignment mediation for tool-using LLM agents operating across HPC, instruments, and federated scientific infrastructure.</p>
+        </div>
+        <div class="focus-card" data-num="ii.">
+          <h3>Foundation Models for Science</h3>
+          <p>Trustworthiness evaluation, hypothesis-generation reasoning models, and domain-specialized LLMs for materials science and astrophysics.</p>
+        </div>
+        <div class="focus-card" data-num="iii.">
+          <h3>Neural Architecture Search</h3>
+          <p>Large-scale evolutionary and differentiable NAS for efficient hybrid Transformer–Mamba–MoE architectures at exascale.</p>
+        </div>
+        <div class="focus-card" data-num="iv.">
+          <h3>HPC &amp; Distributed Training</h3>
+          <p>Pipeline and hybrid parallelism for multi-billion-parameter models on AMD ROCm (Frontier MI250X) and NVIDIA CUDA platforms.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS =========================================== -->
+    <section id="projects" class="reveal">
+      <div class="section-header">
+        <span class="section-num">03 /</span>
+        <h2 class="section-title">Selected Projects</h2>
+      </div>
+
+      <article class="project">
+        <header class="project-header">
+          <h3 class="project-name">VISTAGuard</h3>
+          <span class="project-tag">In Development</span>
+        </header>
+        <p class="project-desc">A unified security and safety-alignment mediation framework for agentic AI in DOE scientific workflows. Capability-aware safety gates span prompt, tool, RAG/memory, code, HPC, instrument, and federation boundaries, with interpreter-level trust-tag propagation and a quarantined-LLM architecture for structurally isolated handling of untrusted content. Paired with <strong>SciAgentBench</strong>, a companion red-teaming evaluation pipeline.</p>
+      </article>
+
+      <article class="project">
+        <header class="project-header">
+          <h3 class="project-name">VISTA</h3>
+          <span class="project-tag">DOE Genesis Mission</span>
+        </header>
+        <p class="project-desc">An agentic AI framework for molten-salt thermophysical-property analysis built with a PydanticAI agent loop (planning, memory, tool-use), a FastMCP server fleet, retrieval-augmented reasoning over a curated ChromaDB corpus, and a Next.js frontend with human-in-the-loop credential elicitation for SLURM job submission.</p>
+      </article>
+
+      <article class="project">
+        <header class="project-header">
+          <h3 class="project-name">CHUNKS</h3>
+          <span class="project-tag">CNMS</span>
+        </header>
+        <p class="project-desc">A multi-agent LLM pipeline for real-time spectroscopic data analysis at ORNL's Center for Nanophase Materials Sciences. Eight LLM-backed agents distributed across Engineering, Analysis, and Knowledge MCP servers, backed by a 100K+ publication RAG corpus, YAML material knowledge bases, and a live-experiment integration dashboard.</p>
+      </article>
+
+      <article class="project">
+        <header class="project-header">
+          <h3 class="project-name">HARMONY</h3>
+          <span class="project-tag">Frontier · 16,384 GPUs</span>
+        </header>
+        <p class="project-desc">A distributed evolutionary architecture-search framework for efficient hybrid Transformer–Mamba–Mixture-of-Experts language models, scaling to 16,384 GPUs on the Frontier exascale supercomputer.</p>
+      </article>
+
+      <article class="project">
+        <header class="project-header">
+          <h3 class="project-name">SciTrust</h3>
+          <span class="project-tag">Trustworthy AI</span>
+        </header>
+        <p class="project-desc">A trustworthiness-evaluation framework for scientific foundation models, with reusable benchmarks across truthfulness, adversarial robustness, safety, and ethics dimensions.</p>
+      </article>
+
+      <article class="project">
+        <header class="project-header">
+          <h3 class="project-name">HERMES</h3>
+          <span class="project-tag">with AllenAI</span>
+        </header>
+        <p class="project-desc">Supervised fine-tuning and Group Relative Policy Optimization (GRPO) applied to reasoning LLMs for materials-science hypothesis generation. Includes a chain-of-thought dataset of 100K+ documents and bespoke reward functions and evaluation pipelines.</p>
+      </article>
+    </section>
+
+    <!-- PUBLICATIONS ======================================= -->
+    <section id="publications" class="reveal">
+      <div class="section-header">
+        <span class="section-num">04 /</span>
+        <h2 class="section-title">Publications</h2>
+      </div>
+
+      <div class="pub-group-label">Peer-Reviewed</div>
+
+      <div class="pub first-author">
+        <div class="pub-num">2026</div>
+        <div class="pub-content">
+          <div class="pub-title">HARMONY: Large-Scale Architecture Search for Efficient Hybrid Language Models</div>
+          <div class="pub-authors"><span class="self">E. Herron</span>, S. Dash, F. Wang</div>
+          <div class="pub-venue">ISC High Performance 2026</div>
+        </div>
+      </div>
+
+      <div class="pub first-author">
+        <div class="pub-num">2026</div>
+        <div class="pub-content">
+          <div class="pub-title">From Rules to Reasoning: A Survey of Large Language Model-Based Approaches to Scientific Hypothesis and Idea Generation</div>
+          <div class="pub-authors"><span class="self">E. Herron</span>, V. Lama, S. Bouknight, T. Ghosal</div>
+          <div class="pub-venue">ACM Computing Surveys</div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-num">2025</div>
+        <div class="pub-content">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2505.17592" rel="noopener">AstroMLab 4: Benchmark-Topping Performance in Astronomy QA with a 70B-Parameter Domain-Specialized Reasoning Model</a></div>
+          <div class="pub-authors">T. de Haan, <span class="self">E. Herron</span>, et al.</div>
+          <div class="pub-venue">Workshop on Machine Learning for Astrophysics, ICML 2025</div>
+          <div class="pub-meta">
+            <a href="https://arxiv.org/abs/2505.17592" rel="noopener">arXiv:2505.17592</a>
+            <span class="citations">4 citations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-num">2025</div>
+        <div class="pub-content">
+          <div class="pub-title"><a href="https://doi.org/10.1007/s11227-024-06637-1" rel="noopener">ChatHPC: Empowering HPC Users with Large Language Models</a></div>
+          <div class="pub-authors">J. Yin, <span class="self">E. Herron</span>, et al.</div>
+          <div class="pub-venue">Journal of Supercomputing, vol. 81</div>
+          <div class="pub-meta">
+            <a href="https://doi.org/10.1007/s11227-024-06637-1" rel="noopener">DOI</a>
+            <span class="citations">21 citations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub first-author">
+        <div class="pub-num">2024</div>
+        <div class="pub-content">
+          <div class="pub-title">SciTrust: Evaluating the Trustworthiness of Large Language Models for Science</div>
+          <div class="pub-authors"><span class="self">E. Herron</span>, J. Yin, F. Wang</div>
+          <div class="pub-venue">AI4S: 5th Workshop on AI/ML for Scientific Applications, SC24</div>
+          <div class="pub-meta"><span class="citations">6 citations</span></div>
+        </div>
+      </div>
+
+      <div class="pub first-author">
+        <div class="pub-num">2024</div>
+        <div class="pub-content">
+          <div class="pub-title">Exploring Scientific Hypothesis Generation with Mamba</div>
+          <div class="pub-authors">M. Chai, <span class="self">E. Herron</span>, E. Cervantes, T. Ghosal &nbsp;<em style="color:var(--ink-faint);font-size:.78rem">(equal contribution)</em></div>
+          <div class="pub-venue">1st Workshop on NLP for Science (NLP4Science), ACL 2024 · pp. 197–207</div>
+          <div class="pub-meta"><span class="citations">14 citations</span></div>
+        </div>
+      </div>
+
+      <div class="pub first-author">
+        <div class="pub-num">2022</div>
+        <div class="pub-content">
+          <div class="pub-title">ICDARTS: Improving the Stability of Cyclic DARTS</div>
+          <div class="pub-authors"><span class="self">E. J. Herron</span>, S. R. Young, D. Rose</div>
+          <div class="pub-venue">21st IEEE International Conference on Machine Learning and Applications (ICMLA), Nassau, Bahamas</div>
+          <div class="pub-meta"><span class="citations">2 citations</span></div>
+        </div>
+      </div>
+
+      <div class="pub first-author">
+        <div class="pub-num">2020</div>
+        <div class="pub-content">
+          <div class="pub-title">Ensembles of Networks Produced from Neural Architecture Search</div>
+          <div class="pub-authors"><span class="self">E. J. Herron</span>, S. R. Young, T. E. Potok</div>
+          <div class="pub-venue">International Conference on High Performance Computing, Springer · pp. 223–234</div>
+          <div class="pub-meta"><span class="citations">28 citations</span></div>
+        </div>
+      </div>
+
+      <div class="pub-group-label">Preprints &amp; Under Review</div>
+
+      <div class="pub first-author">
+        <div class="pub-num">2025</div>
+        <div class="pub-content">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2510.25908" rel="noopener">SciTrust 2.0: A Comprehensive Framework for Evaluating Trustworthiness of Large Language Models in Scientific Applications</a></div>
+          <div class="pub-authors"><span class="self">E. Herron</span>, J. Yin, F. Wang</div>
+          <div class="pub-venue">arXiv:2510.25908</div>
+          <div class="pub-meta"><a href="https://arxiv.org/abs/2510.25908" rel="noopener">arXiv</a></div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-num">2025</div>
+        <div class="pub-content">
+          <div class="pub-title">Recipes for Distributed Training of Mixture of Experts Models</div>
+          <div class="pub-authors">S. Dash, <span class="self">E. Herron</span>, F. Wang</div>
+          <div class="pub-venue">Submitted to AI4S: 6th Workshop on AI/ML for Scientific Applications</div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-num">2025</div>
+        <div class="pub-content">
+          <div class="pub-title">Evaluation Methods in LLM-Based Scientific Hypothesis Generation: Current Methods, Gaps, and Next-Generation Design Principles</div>
+          <div class="pub-authors">J. Huang, <span class="self">E. Herron</span>, I. Ciucă, T. Ghosal</div>
+          <div class="pub-venue">Preprint</div>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-num">2025</div>
+        <div class="pub-content">
+          <div class="pub-title">Roasting SMOREs: Training Mixture of Experts Foundation Models for Science on a Large-Scale Supercomputer</div>
+          <div class="pub-authors">S. Dash, Y. Yang, <span class="self">E. Herron</span>, M. Zhang</div>
+          <div class="pub-venue">Preprint</div>
+        </div>
+      </div>
+
+      <div class="pub first-author">
+        <div class="pub-num">2023</div>
+        <div class="pub-content">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2309.00664" rel="noopener">ICDARTS: Improving the Stability and Performance of Cyclic DARTS</a></div>
+          <div class="pub-authors"><span class="self">E. Herron</span>, D. Rose, S. Young</div>
+          <div class="pub-venue">arXiv:2309.00664</div>
+          <div class="pub-meta"><a href="https://arxiv.org/abs/2309.00664" rel="noopener">arXiv</a></div>
+        </div>
+      </div>
+
+      <div class="pub first-author">
+        <div class="pub-num">2021</div>
+        <div class="pub-content">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2102.11917" rel="noopener">The Sensitivity of Word Embeddings-Based Author Detection Models to Semantic-Preserving Adversarial Perturbations</a></div>
+          <div class="pub-authors">J. Duncan, F. Fallas, C. Gropp, <span class="self">E. Herron</span>, et al.</div>
+          <div class="pub-venue">arXiv:2102.11917</div>
+          <div class="pub-meta">
+            <a href="https://doi.org/10.48550/arXiv.2102.11917" rel="noopener">DOI</a>
+            <span class="citations">1 citation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE ========================================= -->
+    <section id="experience" class="reveal">
+      <div class="section-header">
+        <span class="section-num">05 /</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+
+      <div class="role">
+        <div class="role-dates">Jan 2024<br>– Present</div>
+        <div>
+          <div class="role-org">Oak Ridge National Laboratory</div>
+          <div class="role-title">Postdoctoral Research Associate · Analytics &amp; AI Methods at Scale</div>
+          <div class="role-desc">
+            <ul>
+              <li>Lead developer on <strong>VISTA</strong>, an agentic AI framework for molten-salt thermophysical-property analysis under the DOE Genesis Mission.</li>
+              <li>Designing <strong>VISTAGuard</strong>, a unified security and safety-alignment mediation framework for agentic scientific AI, and <strong>SciAgentBench</strong>, its red-teaming evaluation companion.</li>
+              <li>Architected <strong>HARMONY</strong>, scaling evolutionary NAS for hybrid Transformer–Mamba–MoE models to 16,384 GPUs on Frontier.</li>
+              <li>Built <strong>CHUNKS</strong>, a multi-agent LLM pipeline for real-time spectroscopic analysis at CNMS.</li>
+              <li>Applied SFT and GRPO post-training to reasoning LLMs for materials-science hypothesis generation, in collaboration with AllenAI.</li>
+              <li>Engineered hybrid parallelism (FSDP + DDP, pipeline parallel) for 4B+ parameter models on AMD ROCm and NVIDIA CUDA.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="role-dates">Aug 2018<br>– Dec 2023</div>
+        <div>
+          <div class="role-org">Oak Ridge National Laboratory</div>
+          <div class="role-title">Graduate Research Assistant · Learning Systems / CDA Group</div>
+          <div class="role-desc">
+            <ul>
+              <li>Developed stability and performance improvements to the CDARTS NAS algorithm.</li>
+              <li>Implemented selection algorithms for ORNL's MENNDL NAS software on the Titan and Summit supercomputers.</li>
+              <li>Collaborated on the NIEHS document-mining pipeline including in-PDF text detection via NAS.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="role-dates">May 2017<br>– Jul 2017</div>
+        <div>
+          <div class="role-org">Univ. of Chicago &amp; Illinois Institute of Technology</div>
+          <div class="role-title">Undergraduate Researcher · Big Data X REU</div>
+          <div class="role-desc">
+            <ul>
+              <li>Built modules for image-metadata extraction and contextual file-relationship prediction in large scientific repositories.</li>
+              <li>3rd Place, ACM Student Poster Competition, SC '17.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="role-dates">May 2016<br>– May 2018</div>
+        <div>
+          <div class="role-org">Mercer Engineering Research Center</div>
+          <div class="role-title">Intern</div>
+          <div class="role-desc">
+            <ul>
+              <li>Applied ML methods to aircraft flight-regime classification.</li>
+              <li>Built AR-based remote collaboration and video-streaming for Microsoft HoloLens.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION ========================================== -->
+    <section id="education" class="reveal">
+      <div class="section-header">
+        <span class="section-num">06 /</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="role">
+        <div class="role-dates">2018<br>– 2023</div>
+        <div>
+          <div class="role-org">University of Tennessee, Knoxville</div>
+          <div class="role-title">Ph.D., Data Science &amp; Engineering · Bredesen Center</div>
+          <div class="role-desc">
+            <p><em>Thesis:</em> Generalized Differentiable Neural Architecture Search with Scaling and Stability Improvements &nbsp;·&nbsp; Advisor: Dr. Steven R. Young &nbsp;·&nbsp; GPA: 3.95 / 4.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="role">
+        <div class="role-dates">2014<br>– 2018</div>
+        <div>
+          <div class="role-org">Mercer University</div>
+          <div class="role-title">B.S., Computational Science · Summa Cum Laude</div>
+          <div class="role-desc">
+            <p>GPA: 3.94 / 4.00 &nbsp;·&nbsp; Outstanding Student in Computational Science (2016–2018)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TALKS ============================================== -->
+    <section id="talks" class="reveal">
+      <div class="section-header">
+        <span class="section-num">07 /</span>
+        <h2 class="section-title">Selected Talks &amp; Presentations</h2>
+      </div>
+      <ul class="pres-list">
+        <li>
+          <div class="pres-title">Functional Agents for Functional Materials</div>
+          <div class="pres-venue">ORPA Research Symposium 2026 — <em>Invited Talk</em></div>
+        </li>
+        <li>
+          <div class="pres-title">Towards Secure and Trustworthy Agentic AI Systems for Scientific Discovery</div>
+          <div class="pres-venue">ORNL Collaboration Catalyst — Future of Computing 2026 — Poster</div>
+        </li>
+        <li>
+          <div class="pres-title">Agentic AI Systems in Scientific Workflows</div>
+          <div class="pres-venue">CNMS Postdoc Research Symposium 2026 — <em>Invited Talk</em></div>
+        </li>
+        <li>
+          <div class="pres-title">HARMONY: Evolutionary Design of Efficient Hybrid Transformer–Mamba–MoE Language Models</div>
+          <div class="pres-venue">ORPA Research Symposium 2025 — Talk</div>
+        </li>
+        <li>
+          <div class="pres-title">AstroBench: Probing Large Language Models with the Challenges of Astrophysics</div>
+          <div class="pres-venue">ORNL AI4Science Workshop 2025 — Poster</div>
+        </li>
+        <li>
+          <div class="pres-title">Functional Agents for Functional Materials</div>
+          <div class="pres-venue">ORNL AI4Science Workshop 2025 · ORNL AI Expo 2025 — Posters</div>
+        </li>
+        <li>
+          <div class="pres-title">SciTrust: Evaluating the Trustworthiness of Large Language Models for Science</div>
+          <div class="pres-venue">SC24 AI4Science Workshop · Monterey Data Conference 2024 · ORPA National Postdocs Appreciation Week 2024</div>
+        </li>
+        <li>
+          <div class="pres-title">Generalized Differentiable Neural Architecture Search with Performance and Stability Improvements for Scientific Applications</div>
+          <div class="pres-venue">SOS26, Cocoa Beach, FL — Poster</div>
+        </li>
+        <li>
+          <div class="pres-title">Ensembles of Neural Networks Produced from Neural Architecture Search</div>
+          <div class="pres-venue">Women in HPC Workshop, SC20 · International Conference on High Performance Computing 2020</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- SKILLS ============================================= -->
+    <section id="skills" class="reveal">
+      <div class="section-header">
+        <span class="section-num">08 /</span>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">Agentic AI &amp; LLM Systems</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Model Context Protocol</span>
+          <span class="skill-tag">FastMCP</span>
+          <span class="skill-tag">PydanticAI</span>
+          <span class="skill-tag">Multi-Agent Orchestration</span>
+          <span class="skill-tag">Tool Use</span>
+          <span class="skill-tag">RAG</span>
+          <span class="skill-tag">ChromaDB</span>
+          <span class="skill-tag">Agent Safety &amp; Red-Teaming</span>
+          <span class="skill-tag">Reward Modeling</span>
+          <span class="skill-tag">GRPO Post-Training</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">ML &amp; DL Frameworks</div>
+        <div class="skill-tags">
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">Hugging Face Transformers</span>
+          <span class="skill-tag">vLLM</span>
+          <span class="skill-tag">LangChain</span>
+          <span class="skill-tag">Pydantic</span>
+          <span class="skill-tag">Scikit-learn</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">HPC &amp; Distributed Computing</div>
+        <div class="skill-tags">
+          <span class="skill-tag">SLURM</span>
+          <span class="skill-tag">MPI</span>
+          <span class="skill-tag">DeepSpeed</span>
+          <span class="skill-tag">DDP</span>
+          <span class="skill-tag">FSDP</span>
+          <span class="skill-tag">Pipeline Parallelism</span>
+          <span class="skill-tag">CUDA</span>
+          <span class="skill-tag">ROCm</span>
+          <span class="skill-tag">Frontier (MI250X)</span>
+          <span class="skill-tag">Summit · Titan</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">Languages &amp; Tooling</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C / C++</span>
+          <span class="skill-tag">Bash</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Weights &amp; Biases</span>
+          <span class="skill-tag">Next.js</span>
+          <span class="skill-tag">VS Code · Jupyter</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE & AWARDS =================================== -->
+    <section id="service" class="reveal">
+      <div class="section-header">
+        <span class="section-num">09 /</span>
+        <h2 class="section-title">Service &amp; Recognition</h2>
+      </div>
+
+      <div class="two-col">
+        <div class="col-block">
+          <h3>Reviewing</h3>
+          <ul>
+            <li>AAAI 2026 — Main Track Reviewer</li>
+            <li>EMNLP 2024 — Demo Track Reviewer</li>
+            <li>ICML 2022 — Reviewer (Top 10%)</li>
+          </ul>
+        </div>
+
+        <div class="col-block">
+          <h3>Teaching &amp; Mentoring</h3>
+          <ul>
+            <li>Guest Lecturer, DSE 697 Generative AI (Trustworthy AI), Univ. of Tennessee <span class="year">2025</span></li>
+            <li>Assistant Instructor, ORNL AI Summer Institute Tutorial <span class="year">2024</span></li>
+            <li>Mentor, ORNL PCIP Undergraduate Summer Internship Program <span class="year">2024–25</span></li>
+            <li>Peer Mentor, Bredesen Center Peer Mentoring Program <span class="year">2022–23</span></li>
+          </ul>
+        </div>
+
+        <div class="col-block">
+          <h3>Affiliations &amp; Leadership</h3>
+          <ul>
+            <li>Secretary, 2026 Executive Board, Oak Ridge Postdoctoral Association <span class="year">2025–</span></li>
+            <li>Member, IEEE <span class="year">2022–</span></li>
+            <li>Member, ACM <span class="year">2017–</span></li>
+          </ul>
+        </div>
+
+        <div class="col-block">
+          <h3>Awards &amp; Honors</h3>
+          <ul>
+            <li>Argonne Training Program on Extreme-Scale Computing — Accepted Scholar <span class="year">2025</span></li>
+            <li>OLCF Director's Discretion Project — 20,000 Summit Hours <span class="year">2022–23</span></li>
+            <li>Bredesen Center Data Science &amp; Engineering Fellowship <span class="year">2018</span></li>
+            <li>ACM Student Poster Competition Semifinalist, SC '17 <span class="year">2017</span></li>
+            <li>Outstanding Student in Computational Science, Mercer Univ. <span class="year">2016–18</span></li>
+          </ul>
+        </div>
+
+        <div class="col-block">
+          <h3>Outreach</h3>
+          <ul>
+            <li>Ijams River Rescue, Oak Ridge <span class="year">2026</span></li>
+            <li>Hour of Code Volunteer, Little River Montessori School <span class="year">2025</span></li>
+            <li>ORNL Traveling Science Fair Volunteer <span class="year">2024–25</span></li>
+            <li>Introduce Your Daughter to AI, ORNL <span class="year">2018–19</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <span>© Emily J. Herron · Updated May 2026</span>
+  <span class="colophon">Set in Fraunces &amp; Inter. Built with Jekyll.</span>
+</footer>
